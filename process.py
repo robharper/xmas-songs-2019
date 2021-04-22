@@ -66,23 +66,23 @@ data_2019 = data_2019.convert('song_title', name_changes)
 # Create normalized song identity columns
 
 print('---------2019--------')
-for entry in top10_songs(data_2019).dicts().islice(0,10):
+for entry in top10_songs(data_2019).dicts().islice(0,20):
   print(str(entry) + ',')
 print('-------')
-for entry in top10_artists(data_2019).dicts().islice(0,10):
+for entry in top10_artists(data_2019).dicts().islice(0,20):
   print(str(entry) + ',')
 
 print('---------2018--------')
-for entry in top10_songs(data_2018).dicts().islice(0,10):
+for entry in top10_songs(data_2018).dicts().islice(0,20):
   print(str(entry) + ',')
 print('-------')
-for entry in top10_artists(data_2018).dicts().islice(0,10):
+for entry in top10_artists(data_2018).dicts().islice(0,20):
   print(str(entry) + ',')
 
 
 print('---------2017--------')
-for entry in top10_songs(data_2017).dicts().islice(0,10):
+for entry in top10_songs(data_2017).dicts().islice(0,20):
   print(str(entry) + ',')
 print('-------')
-for entry in top10_artists(data_2017).dicts().islice(0,10):
+for entry in top10_artists(data_2017).dicts().islice(0,20):
   print(str(entry) + ',')

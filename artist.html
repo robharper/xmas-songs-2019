@@ -75,7 +75,7 @@
   </style>
 </head>
 <body>
-  <h2>Christmas Song Play-Count Ranking by Year</h2>
+  <h2>Christmas Song Artist Play-Count Ranking by Year</h2>
   <div id="viz">
     <svg id="flow" xmlns="http://www.w3.org/2000/svg" viewBox="0 5 100 119" preserveAspectRatio="none">
       <defs>
@@ -103,28 +103,28 @@
 
 <script>
 var songs2019 = [
-{'rank': 1, 'song_title_id': 'winterwonderland', 'count': 65, 'song_title': 'Winter Wonderland', 'artists': [('Air Supply', 1), ('Amy Grant', 4), ('Aretha Franklin', 3), ('Chantal Kreviazuk', 3), ('Dean Martin', 1), ('Eurythmics', 19), ('Gwen Stefani', 2), ('John Legend', 1), ('Leona Lewis', 3), ('Matt Dusk', 2), ('Michael Buble', 1), ('Roch Voisine', 2), ('Sarah McLachlan', 2), ('Shaye', 3), ('Tony Bennett', 18)]},
-{'rank': 2, 'song_title_id': 'itsthemostwonderfultimeoftheyear', 'count': 59, 'song_title': "It's the Most Wonderful Time of the Year", 'artists': [('Amy Grant', 4), ('Andy Williams', 23), ('Jann Arden', 8), ('Johnny Mathis', 18), ('Lea Michele', 4), ('Matt Dusk', 2)]},
-{'rank': 3, 'song_title_id': 'letitsnow', 'count': 56, 'song_title': 'Let It Snow', 'artists': [('Aaron Neville', 4), ('Carly Rae Jepsen', 5), ('Dean Martin', 22), ('Frank Sinatra', 3), ('Gloria Estefan', 3), ('Harry Connick. Jr.', 5), ('Rankin, Heather, Cookie & Raylene', 7), ('SEAL', 2), ('Sarah McLachlan', 4), ('Serena Ryder', 1)]},
-{'rank': 4, 'song_title_id': 'santaclausiscomingtotown', 'count': 54, 'song_title': 'Santa Claus Is Coming To Town', 'artists': [('Bruce Springsteen', 4), ('Frank Sinatra & Cyndi Lauper', 21), ('Gwen Stefani', 3), ('James Taylor', 1), ('Jessie J', 3), ('Mariah Carey', 2), ('Michael Bublé', 1), ('Pentatonix', 2), ('The Pointer Sisters', 17)]},
-{'rank': 5, 'song_title_id': 'haveyourselfamerrylittlechristmas', 'count': 52, 'song_title': 'Have Yourself A Merry Little Christmas', 'artists': [('Ali Slaight & Theo Tams', 6), ('Amanda Stott', 3), ('Barbara Streisand', 3), ('Blue Rodeo', 6), ('Carpenters', 4), ('Christina Aguilera', 3), ('Colbie Caillat', 4), ('David Archuleta', 4), ('Frank Sinatra', 2), ('James Taylor', 2), ('Luther Vandross', 2), ('Matt Dusk', 1), ('Sam Smith', 6), ('The Tenors', 1), ('Train', 3), ('Victoria Duffield', 2)]},
-{'rank': 6, 'song_title_id': 'sleighride', 'count': 51, 'song_title': 'Sleigh Ride', 'artists': [('Amy Grant', 2), ('Carpenters', 1), ('Debbie Gibson', 1), ('Ella Fitzgerald', 4), ('Harry Connick, Jr.', 1), ('Johnny Mathis', 2), ('KT Tunstall', 1), ('Leroy Anderson', 14), ('Pentatonix', 5), ('Roch Voisine', 4), ('The Ronettes', 16)]},
-{'rank': 7, 'song_title_id': 'whitechristmas', 'count': 49, 'song_title': 'White Christmas', 'artists': [('Anne Murray', 5), ('Bing Crosby', 21), ('Gwen Stefani', 1), ('Josh Groban', 4), ('Lara Fabian', 3), ('Michael Buble', 5), ('Roch Voisine', 2), ('Sarah McLachlan', 1), ('Serena Ryder', 2), ('Tony Bennett', 5)]},
-{'rank': 8, 'song_title_id': 'jinglebellrock', 'count': 46, 'song_title': 'Jingle Bell Rock', 'artists': [('Amy Grant', 4), ('Bobby Helms', 22), ('Hall & Oates', 14), ('Serena Ryder', 6)]},
-{'rank': 9, 'song_title_id': 'thechristmassong', 'count': 44, 'song_title': 'The Christmas Song', 'artists': [('Al Jarreau', 1), ('Carpenters', 4), ('Jann Arden', 5), ('Luther Vandross', 3), ('Matt Dusk', 2), ('Nat "King" Cole', 19), ('SEAL', 2), ('Sarah McLachlan', 4), ('Serena Ryder', 1), ('Sheryl Crow', 2), ('Stevie Wonder', 1)]},
-{'rank': 10, 'song_title_id': 'christmasbabypleasecomehome', 'count': 40, 'song_title': 'Christmas (Baby Please Come Home)', 'artists': [('Andee', 4), ('Lady Antebellum', 2), ('Leona Lewis', 3), ('Mariah Carey', 19), ('Matt Nathanson', 1), ('Michael Bublé', 4), ('Robbie Williams', 2), ('U2', 5)]}
+{'rank': 1, 'song_title_id': 'winterwonderland', 'count': 59, 'song_title': 'Winter Wonderland', 'artists': [('Air Supply', 1), ('Amy Grant', 3), ('Aretha Franklin', 3), ('Chantal Kreviazuk', 3), ('Dean Martin', 1), ('Eurythmics', 16), ('Gwen Stefani', 2), ('John Legend', 1), ('Leona Lewis', 2), ('Matt Dusk', 1), ('Michael Buble', 1), ('Roch Voisine', 3), ('Sarah McLachlan', 2), ('Shaye', 3), ('Tony Bennett', 17)]},
+{'rank': 2, 'song_title_id': 'itsthemostwonderfultimeoftheyear', 'count': 50, 'song_title': "It's the Most Wonderful Time of the Year", 'artists': [('Amy Grant', 3), ('Andy Williams', 21), ('Jann Arden', 6), ('Johnny Mathis', 15), ('Lea Michele', 3), ('Matt Dusk', 2)]},
+{'rank': 3, 'song_title_id': 'letitsnow', 'count': 47, 'song_title': 'Let It Snow', 'artists': [('Aaron Neville', 3), ('Carly Rae Jepsen', 5), ('Dean Martin', 19), ('Frank Sinatra', 3), ('Gloria Estefan', 2), ('Harry Connick. Jr.', 3), ('Rankin, Heather, Cookie & Raylene', 7), ('SEAL', 1), ('Sarah McLachlan', 3), ('Serena Ryder', 1)]},
+{'rank': 4, 'song_title_id': 'santaclausiscomingtotown', 'count': 47, 'song_title': 'Santa Claus Is Coming To Town', 'artists': [('Bruce Springsteen', 3), ('Frank Sinatra & Cyndi Lauper', 18), ('Gwen Stefani', 2), ('James Taylor', 1), ('Jessie J', 3), ('Mariah Carey', 2), ('Michael Bublé', 1), ('Pentatonix', 2), ('The Pointer Sisters', 15)]},
+{'rank': 5, 'song_title_id': 'haveyourselfamerrylittlechristmas', 'count': 46, 'song_title': 'Have Yourself A Merry Little Christmas', 'artists': [('Ali Slaight & Theo Tams', 5), ('Amanda Stott', 3), ('Barbara Streisand', 3), ('Blue Rodeo', 5), ('Carpenters', 3), ('Christina Aguilera', 3), ('Colbie Caillat', 3), ('David Archuleta', 3), ('Frank Sinatra', 2), ('James Taylor', 2), ('Luther Vandross', 2), ('Matt Dusk', 1), ('Sam Smith', 5), ('The Tenors', 1), ('Train', 3), ('Victoria Duffield', 2)]},
+{'rank': 6, 'song_title_id': 'sleighride', 'count': 45, 'song_title': 'Sleigh Ride', 'artists': [('Amy Grant', 2), ('Carpenters', 1), ('Debbie Gibson', 1), ('Ella Fitzgerald', 3), ('Harry Connick, Jr.', 1), ('Johnny Mathis', 3), ('KT Tunstall', 1), ('Leroy Anderson', 12), ('Pentatonix', 4), ('Roch Voisine', 2), ('The Ronettes', 15)]},
+{'rank': 7, 'song_title_id': 'whitechristmas', 'count': 44, 'song_title': 'White Christmas', 'artists': [('Anne Murray', 3), ('Bing Crosby', 20), ('Gwen Stefani', 2), ('Josh Groban', 4), ('Lara Fabian', 2), ('Michael Buble', 5), ('Roch Voisine', 2), ('Serena Ryder', 1), ('Tony Bennett', 5)]},
+{'rank': 8, 'song_title_id': 'jinglebellrock', 'count': 43, 'song_title': 'Jingle Bell Rock', 'artists': [('Amy Grant', 3), ('Bobby Helms', 20), ('Hall & Oates', 14), ('Serena Ryder', 6)]},
+{'rank': 9, 'song_title_id': 'thechristmassong', 'count': 38, 'song_title': 'The Christmas Song', 'artists': [('Al Jarreau', 1), ('Carpenters', 3), ('Jann Arden', 5), ('Luther Vandross', 3), ('Matt Dusk', 2), ('Nat "King" Cole', 16), ('SEAL', 1), ('Sarah McLachlan', 4), ('Serena Ryder', 1), ('Sheryl Crow', 1), ('Stevie Wonder', 1)]},
+{'rank': 10, 'song_title_id': 'christmasbabypleasecomehome', 'count': 36, 'song_title': 'Christmas (Baby Please Come Home)', 'artists': [('Andee', 4), ('Lady Antebellum', 1), ('Leona Lewis', 3), ('Mariah Carey', 18), ('Michael Bublé', 3), ('Robbie Williams', 3), ('U2', 4)]}
 ];
 var artists2019 = [
-{'rank': 1, 'artist': 'Andy Williams', 'count': 26, 'song_title': "It's the Most Wonderful Time of the Year"},
-{'rank': 2, 'artist': 'Dean Martin', 'count': 26, 'song_title': 'Let It Snow'},
-{'rank': 3, 'artist': 'Carpenters', 'count': 24, 'song_title': 'The Christmas Song'},
-{'rank': 4, 'artist': 'Mariah Carey', 'count': 24, 'song_title': 'Christmas (Baby Please Come Home)'},
-{'rank': 5, 'artist': 'Michael Bublé', 'count': 21, 'song_title': "It's Beginning To Look a Lot Like Christmas"},
-{'rank': 6, 'artist': 'Bing Crosby', 'count': 20, 'song_title': 'White Christmas'},
-{'rank': 7, 'artist': 'Serena Ryder', 'count': 19, 'song_title': 'Christmas Kisses'},
-{'rank': 8, 'artist': 'Jann Arden', 'count': 18, 'song_title': "It's the Most Wonderful Time of the Year"},
-{'rank': 9, 'artist': 'Pentatonix', 'count': 18, 'song_title': 'Away In a Manger'},
-{'rank': 10, 'artist': 'Matt Dusk', 'count': 16, 'song_title': 'Cool Yule'}
+{'rank': 1, 'artist': 'Mariah Carey', 'count': 45, 'song_title': 'Christmas (Baby Please Come Home)'},
+{'rank': 2, 'artist': 'Dean Martin', 'count': 42, 'song_title': 'Let It Snow'},
+{'rank': 3, 'artist': 'Andy Williams', 'count': 41, 'song_title': "It's the Most Wonderful Time of the Year"},
+{'rank': 4, 'artist': 'Michael Bublé', 'count': 41, 'song_title': "It's Beginning To Look a Lot Like Christmas"},
+{'rank': 5, 'artist': 'Carpenters', 'count': 35, 'song_title': 'The Christmas Song'},
+{'rank': 6, 'artist': 'Pentatonix', 'count': 34, 'song_title': 'Away In a Manger'},
+{'rank': 7, 'artist': 'Jann Arden', 'count': 32, 'song_title': "It's the Most Wonderful Time of the Year"},
+{'rank': 8, 'artist': 'Bing Crosby', 'count': 31, 'song_title': 'White Christmas'},
+{'rank': 9, 'artist': 'Serena Ryder', 'count': 31, 'song_title': 'Christmas Kisses'},
+{'rank': 10, 'artist': 'Matt Dusk', 'count': 29, 'song_title': 'Cool Yule'}
 ];
 var songs2018 = [
 {'rank': 1, 'song_title_id': 'winterwonderland', 'count': 154, 'song_title': 'Winter Wonderland', 'artists': [('Air Supply', 3), ('Amy Grant', 7), ('Aretha Franklin', 2), ('Dean Martin', 3), ('Eurythmics', 47), ('Gwen Stefani', 10), ('John Legend', 5), ('Leona Lewis', 8), ('Matt Dusk', 8), ('Michael Buble', 4), ('Roch Voisine', 3), ('Sarah McLachlan', 5), ('Shaye', 9), ('Take Three', 4), ('Tony Bennett', 36)]},
@@ -176,13 +176,13 @@ var artists2017 = [
 ];
 
 // Add year
-_.forEach(songs2017, function(s) { 
+_.forEach(artists2017, function(s) { 
   s.index = 0;
 });
-_.forEach(songs2018, function(s) { 
+_.forEach(artists2018, function(s) { 
   s.index = 1;
 });
-_.forEach(songs2019, function(s) { 
+_.forEach(artists2019, function(s) { 
   s.index = 2;
 });
 
@@ -190,7 +190,7 @@ var titleTemplate =
   '<h3><%= year %></h3>' + 
   '<ul>' +
   '<% _.forEach(items, function(item) { %>' +
-    '<li><%= item.song_title %></li>' +
+    '<li><%= item.artist %></li>' +
   '<% }); %>' +
   '</ul>';
 
@@ -198,15 +198,15 @@ var makeTitles = _.template(titleTemplate);
 
 document.querySelector('#col-1').innerHTML = makeTitles({
   year: '2017',
-  items: songs2017
+  items: artists2017
 });
 document.querySelector('#col-2').innerHTML = makeTitles({
   year: '2018',
-  items: songs2018
+  items: artists2018
 });
 document.querySelector('#col-3').innerHTML = makeTitles({
   year: '2019',
-  items: songs2019
+  items: artists2019
 });
 
 
@@ -256,8 +256,8 @@ var flowTemplate =
 var makeFlows = _.template(flowTemplate);
 //d="M0,100 C 30,100 20,200 50,200"
 
-var allSongs = [].concat(songs2017, songs2018, songs2019);
-var flows = _.map(_.groupBy(allSongs, 'song_title_id'), function(value, key) {
+var allartists = [].concat(artists2017, artists2018, artists2019);
+var flows = _.map(_.groupBy(allartists, 'artist'), function(value, key) {
   var ranks = [
     _.find(value, {index: 0}),
     _.find(value, {index: 1}),
@@ -271,7 +271,7 @@ var flows = _.map(_.groupBy(allSongs, 'song_title_id'), function(value, key) {
   };
 });
 _.forEach(flows, function(flow) {
-  var delta = (flow.rank[2] || flow.rank[1] || 20) - (flow.rank[0] || flow.rank[1]);
+  var delta = (flow.rank[2] == null && flow.rank[0] == null) ? 20 : (flow.rank[2] || flow.rank[1] || 20) - (flow.rank[0] || flow.rank[1]);
   flow.clazz = delta > 0 ? 'red' : delta === 0 ? 'grey' : 'green';
   flow.rank = _.map(flow.rank, function(r) { return r || 12 });
 });
